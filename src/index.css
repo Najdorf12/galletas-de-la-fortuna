@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto:ital,wght@0,500;0,900;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.section_main{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 2rem;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  position: absolute;
+  color:#2B2730;
+  top: 1rem;
+  left: 0;
+  right: 0;
+}
+.phrases_container{
+  background-color: whitesmoke;
+  padding: 1rem;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.phrases_container p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  color:#164B60;
+}
+.phrases_container h5{
+  color:#FF2171;
+}
+.btn_next{
+  color: antiquewhite;
+  background-color: black;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  padding: 10px;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: 900;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid rgb(238, 234, 19);
+}
